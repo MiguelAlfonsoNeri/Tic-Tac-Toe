@@ -723,6 +723,11 @@ namespace Tic_Tac_Toe_Project
                 }
             }
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Tic-Tac-Toe by Miguel Neri," +" / "+ "Future Programmer", "About");
+        }
     }
 }
 

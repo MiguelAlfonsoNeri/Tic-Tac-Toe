@@ -39,6 +39,15 @@
             this.Bn8 = new System.Windows.Forms.Button();
             this.Bn9 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutTheCreatorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitGameToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
+            this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
             // Bn1
@@ -137,11 +146,70 @@
             this.menuStrip1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("menuStrip1.BackgroundImage")));
             this.menuStrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(30, 30);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuToolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(816, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(816, 33);
+            this.menuStrip1.Stretch = false;
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // menuStrip2
+            // 
+            this.menuStrip2.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuToolStripMenuItem});
+            this.menuStrip2.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip2.Name = "menuStrip2";
+            this.menuStrip2.Size = new System.Drawing.Size(816, 33);
+            this.menuStrip2.TabIndex = 10;
+            this.menuStrip2.Text = "menuStrip2";
+            this.menuStrip2.Visible = false;
+            // 
+            // menuToolStripMenuItem
+            // 
+            this.menuToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
+            this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.exitGameToolStripMenuItem,
+            this.aboutTheCreatorToolStripMenuItem});
+            this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(73, 29);
+            this.menuToolStripMenuItem.Text = "Menu";
+            // 
+            // exitGameToolStripMenuItem
+            // 
+            this.exitGameToolStripMenuItem.Name = "exitGameToolStripMenuItem";
+            this.exitGameToolStripMenuItem.Size = new System.Drawing.Size(254, 34);
+            this.exitGameToolStripMenuItem.Text = "Exit game";
+            // 
+            // aboutTheCreatorToolStripMenuItem
+            // 
+            this.aboutTheCreatorToolStripMenuItem.Name = "aboutTheCreatorToolStripMenuItem";
+            this.aboutTheCreatorToolStripMenuItem.Size = new System.Drawing.Size(254, 34);
+            this.aboutTheCreatorToolStripMenuItem.Text = "About the creator";
+            // 
+            // menuToolStripMenuItem1
+            // 
+            this.menuToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aboutToolStripMenuItem,
+            this.exitGameToolStripMenuItem1});
+            this.menuToolStripMenuItem1.Name = "menuToolStripMenuItem1";
+            this.menuToolStripMenuItem1.Size = new System.Drawing.Size(73, 29);
+            this.menuToolStripMenuItem1.Text = "Menu";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.aboutToolStripMenuItem.Text = "About ";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
+            // exitGameToolStripMenuItem1
+            // 
+            this.exitGameToolStripMenuItem1.Name = "exitGameToolStripMenuItem1";
+            this.exitGameToolStripMenuItem1.Size = new System.Drawing.Size(270, 34);
+            this.exitGameToolStripMenuItem1.Text = "Exit game";
             // 
             // Form1
             // 
@@ -161,10 +229,15 @@
             this.Controls.Add(this.Bn2);
             this.Controls.Add(this.Bn1);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.menuStrip2);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tic-Tac-Toe Game";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.menuStrip2.ResumeLayout(false);
+            this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -182,5 +255,12 @@
         private Button Bn8;
         private Button Bn9;
         private MenuStrip menuStrip1;
+        private MenuStrip menuStrip2;
+        private ToolStripMenuItem menuToolStripMenuItem;
+        private ToolStripMenuItem exitGameToolStripMenuItem;
+        private ToolStripMenuItem aboutTheCreatorToolStripMenuItem;
+        private ToolStripMenuItem menuToolStripMenuItem1;
+        private ToolStripMenuItem aboutToolStripMenuItem;
+        private ToolStripMenuItem exitGameToolStripMenuItem1;
     }
 }
