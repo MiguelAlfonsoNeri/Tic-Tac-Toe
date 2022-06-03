@@ -1,6 +1,6 @@
 ﻿namespace Tic_Tac_Toe_Project
 {
-    partial class _form1
+    partial class Form1
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,15 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this._bn1 = new System.Windows.Forms.Button();
-            this._bn2 = new System.Windows.Forms.Button();
-            this._bn3 = new System.Windows.Forms.Button();
-            this._bn4 = new System.Windows.Forms.Button();
-            this._bn5 = new System.Windows.Forms.Button();
-            this._bn6 = new System.Windows.Forms.Button();
-            this._bn7 = new System.Windows.Forms.Button();
-            this._bn8 = new System.Windows.Forms.Button();
-            this._bn9 = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.Bn1 = new System.Windows.Forms.Button();
+            this.Bn2 = new System.Windows.Forms.Button();
+            this.Bn3 = new System.Windows.Forms.Button();
+            this.Bn4 = new System.Windows.Forms.Button();
+            this.Bn5 = new System.Windows.Forms.Button();
+            this.Bn6 = new System.Windows.Forms.Button();
+            this.Bn7 = new System.Windows.Forms.Button();
+            this.Bn8 = new System.Windows.Forms.Button();
+            this.Bn9 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
@@ -45,95 +46,97 @@
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // _bn1
+            // Bn1
             // 
-            this._bn1.Location = new System.Drawing.Point(235, 60);
-            this._bn1.Name = "_bn1";
-            this._bn1.Size = new System.Drawing.Size(146, 101);
-            this._bn1.TabIndex = 0;
-            this._bn1.Text = "button1";
-            this._bn1.UseVisualStyleBackColor = true;
+            this.Bn1.Location = new System.Drawing.Point(224, 60);
+            this.Bn1.Name = "Bn1";
+            this.Bn1.Size = new System.Drawing.Size(168, 101);
+            this.Bn1.TabIndex = 0;
+            this.Bn1.UseVisualStyleBackColor = true;
+            this.Bn1.Click += new System.EventHandler(this.Bn1_Click);
             // 
-            // _bn2
+            // Bn2
             // 
-            this._bn2.Location = new System.Drawing.Point(235, 167);
-            this._bn2.Name = "_bn2";
-            this._bn2.Size = new System.Drawing.Size(146, 101);
-            this._bn2.TabIndex = 1;
-            this._bn2.Text = "button2";
-            this._bn2.UseVisualStyleBackColor = true;
+            this.Bn2.Location = new System.Drawing.Point(224, 167);
+            this.Bn2.Name = "Bn2";
+            this.Bn2.Size = new System.Drawing.Size(168, 101);
+            this.Bn2.TabIndex = 1;
+            this.Bn2.UseVisualStyleBackColor = true;
+            this.Bn2.Click += new System.EventHandler(this.Bn2_Click);
             // 
-            // _bn3
+            // Bn3
             // 
-            this._bn3.Location = new System.Drawing.Point(235, 274);
-            this._bn3.Name = "_bn3";
-            this._bn3.Size = new System.Drawing.Size(146, 103);
-            this._bn3.TabIndex = 2;
-            this._bn3.Text = "button3";
-            this._bn3.UseVisualStyleBackColor = true;
+            this.Bn3.Location = new System.Drawing.Point(224, 274);
+            this.Bn3.Name = "Bn3";
+            this.Bn3.Size = new System.Drawing.Size(168, 103);
+            this.Bn3.TabIndex = 2;
+            this.Bn3.UseVisualStyleBackColor = true;
+            this.Bn3.Click += new System.EventHandler(this.Bn3_Click);
             // 
-            // _bn4
+            // Bn4
             // 
-            this._bn4.Location = new System.Drawing.Point(423, 60);
-            this._bn4.Name = "_bn4";
-            this._bn4.Size = new System.Drawing.Size(146, 101);
-            this._bn4.TabIndex = 3;
-            this._bn4.Text = "button4";
-            this._bn4.UseVisualStyleBackColor = true;
+            this.Bn4.Location = new System.Drawing.Point(398, 60);
+            this.Bn4.Name = "Bn4";
+            this.Bn4.Size = new System.Drawing.Size(185, 101);
+            this.Bn4.TabIndex = 3;
+            this.Bn4.UseVisualStyleBackColor = true;
+            this.Bn4.Click += new System.EventHandler(this.Bn4_Click);
             // 
-            // _bn5
+            // Bn5
             // 
-            this._bn5.Location = new System.Drawing.Point(423, 167);
-            this._bn5.Name = "_bn5";
-            this._bn5.Size = new System.Drawing.Size(146, 101);
-            this._bn5.TabIndex = 4;
-            this._bn5.Text = "button5";
-            this._bn5.UseVisualStyleBackColor = true;
+            this.Bn5.Location = new System.Drawing.Point(398, 167);
+            this.Bn5.Name = "Bn5";
+            this.Bn5.Size = new System.Drawing.Size(185, 101);
+            this.Bn5.TabIndex = 4;
+            this.Bn5.UseVisualStyleBackColor = true;
+            this.Bn5.Click += new System.EventHandler(this.Bn5_Click);
             // 
-            // _bn6
+            // Bn6
             // 
-            this._bn6.Location = new System.Drawing.Point(423, 274);
-            this._bn6.Name = "_bn6";
-            this._bn6.Size = new System.Drawing.Size(146, 103);
-            this._bn6.TabIndex = 5;
-            this._bn6.Text = "button6";
-            this._bn6.UseVisualStyleBackColor = true;
+            this.Bn6.Location = new System.Drawing.Point(398, 274);
+            this.Bn6.Name = "Bn6";
+            this.Bn6.Size = new System.Drawing.Size(185, 103);
+            this.Bn6.TabIndex = 5;
+            this.Bn6.UseVisualStyleBackColor = true;
+            this.Bn6.Click += new System.EventHandler(this.Bn6_Click);
             // 
-            // _bn7
+            // Bn7
             // 
-            this._bn7.Location = new System.Drawing.Point(599, 60);
-            this._bn7.Name = "_bn7";
-            this._bn7.Size = new System.Drawing.Size(146, 101);
-            this._bn7.TabIndex = 6;
-            this._bn7.Text = "button7";
-            this._bn7.UseVisualStyleBackColor = true;
+            this.Bn7.Location = new System.Drawing.Point(589, 60);
+            this.Bn7.Name = "Bn7";
+            this.Bn7.Size = new System.Drawing.Size(166, 101);
+            this.Bn7.TabIndex = 6;
+            this.Bn7.UseVisualStyleBackColor = true;
+            this.Bn7.Click += new System.EventHandler(this.Bn7_Click);
             // 
-            // _bn8
+            // Bn8
             // 
-            this._bn8.Location = new System.Drawing.Point(599, 167);
-            this._bn8.Name = "_bn8";
-            this._bn8.Size = new System.Drawing.Size(146, 101);
-            this._bn8.TabIndex = 7;
-            this._bn8.Text = "button8";
-            this._bn8.UseVisualStyleBackColor = true;
+            this.Bn8.Location = new System.Drawing.Point(589, 167);
+            this.Bn8.Name = "Bn8";
+            this.Bn8.Size = new System.Drawing.Size(166, 101);
+            this.Bn8.TabIndex = 7;
+            this.Bn8.UseVisualStyleBackColor = true;
+            this.Bn8.Click += new System.EventHandler(this.Bn8_Click);
             // 
-            // _bn9
+            // Bn9
             // 
-            this._bn9.Location = new System.Drawing.Point(599, 274);
-            this._bn9.Name = "_bn9";
-            this._bn9.Size = new System.Drawing.Size(146, 103);
-            this._bn9.TabIndex = 8;
-            this._bn9.Text = "button9";
-            this._bn9.UseVisualStyleBackColor = true;
+            this.Bn9.Location = new System.Drawing.Point(589, 274);
+            this.Bn9.Name = "Bn9";
+            this.Bn9.Size = new System.Drawing.Size(166, 103);
+            this.Bn9.TabIndex = 8;
+            this.Bn9.UseVisualStyleBackColor = true;
+            this.Bn9.Click += new System.EventHandler(this.Bn9_Click);
             // 
             // menuStrip1
             // 
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.menuStrip1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("menuStrip1.BackgroundImage")));
+            this.menuStrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(30, 30);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(890, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(790, 33);
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -143,6 +146,7 @@
             this.toolStripTextBox1,
             this.exitToolStripMenuItem,
             this.aboutToolStripMenuItem});
+            this.toolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(73, 29);
             this.toolStripMenuItem1.Text = "Menu";
@@ -155,34 +159,36 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(191, 34);
             this.exitToolStripMenuItem.Text = "Exit game";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(191, 34);
             this.aboutToolStripMenuItem.Text = "About";
             // 
-            // _form1
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(890, 525);
-            this.Controls.Add(this._bn9);
-            this.Controls.Add(this._bn8);
-            this.Controls.Add(this._bn7);
-            this.Controls.Add(this._bn6);
-            this.Controls.Add(this._bn5);
-            this.Controls.Add(this._bn4);
-            this.Controls.Add(this._bn3);
-            this.Controls.Add(this._bn2);
-            this.Controls.Add(this._bn1);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(790, 407);
+            this.Controls.Add(this.Bn9);
+            this.Controls.Add(this.Bn8);
+            this.Controls.Add(this.Bn7);
+            this.Controls.Add(this.Bn6);
+            this.Controls.Add(this.Bn5);
+            this.Controls.Add(this.Bn4);
+            this.Controls.Add(this.Bn3);
+            this.Controls.Add(this.Bn2);
+            this.Controls.Add(this.Bn1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "_form1";
+            this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Tic-Tac-Toe Game";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -192,15 +198,15 @@
 
         #endregion
 
-        private Button _bn1;
-        private Button _bn2;
-        private Button _bn3;
-        private Button _bn4;
-        private Button _bn5;
-        private Button _bn6;
-        private Button _bn7;
-        private Button _bn8;
-        private Button _bn9;
+        private Button Bn1;
+        private Button Bn2;
+        private Button Bn3;
+        private Button Bn4;
+        private Button Bn5;
+        private Button Bn6;
+        private Button Bn7;
+        private Button Bn8;
+        private Button Bn9;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem toolStripMenuItem1;
         private ToolStripTextBox toolStripTextBox1;
