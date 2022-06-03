@@ -1,0 +1,17 @@
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Tic-Tac-Toe Project\Tic-Tac-Toe Project\bin\Debug\net6.0-windows\Tic-Tac-Toe Project.exe
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Tic-Tac-Toe Project\Tic-Tac-Toe Project\bin\Debug\net6.0-windows\Tic-Tac-Toe Project.deps.json
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Tic-Tac-Toe Project\Tic-Tac-Toe Project\bin\Debug\net6.0-windows\Tic-Tac-Toe Project.runtimeconfig.json
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Tic-Tac-Toe Project\Tic-Tac-Toe Project\bin\Debug\net6.0-windows\Tic-Tac-Toe Project.dll
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Tic-Tac-Toe Project\Tic-Tac-Toe Project\bin\Debug\net6.0-windows\Tic-Tac-Toe Project.pdb
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Tic-Tac-Toe Project\Tic-Tac-Toe Project\obj\Debug\net6.0-windows\Tic-Tac-Toe Project.csproj.AssemblyReference.cache
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Tic-Tac-Toe Project\Tic-Tac-Toe Project\obj\Debug\net6.0-windows\Tic-Tac-Toe Project.csproj.GenerateResource.cache
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Tic-Tac-Toe Project\Tic-Tac-Toe Project\obj\Debug\net6.0-windows\Tic-Tac-Toe Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Tic-Tac-Toe Project\Tic-Tac-Toe Project\obj\Debug\net6.0-windows\Tic-Tac-Toe Project.AssemblyInfoInputs.cache
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Tic-Tac-Toe Project\Tic-Tac-Toe Project\obj\Debug\net6.0-windows\Tic-Tac-Toe Project.AssemblyInfo.cs
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Tic-Tac-Toe Project\Tic-Tac-Toe Project\obj\Debug\net6.0-windows\Tic-Tac-Toe Project.csproj.CoreCompileInputs.cache
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Tic-Tac-Toe Project\Tic-Tac-Toe Project\obj\Debug\net6.0-windows\Tic-Tac-Toe Project.dll
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Tic-Tac-Toe Project\Tic-Tac-Toe Project\obj\Debug\net6.0-windows\refint\Tic-Tac-Toe Project.dll
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Tic-Tac-Toe Project\Tic-Tac-Toe Project\obj\Debug\net6.0-windows\Tic-Tac-Toe Project.pdb
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Tic-Tac-Toe Project\Tic-Tac-Toe Project\obj\Debug\net6.0-windows\Tic-Tac-Toe Project.genruntimeconfig.cache
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Tic-Tac-Toe Project\Tic-Tac-Toe Project\obj\Debug\net6.0-windows\ref\Tic-Tac-Toe Project.dll
+C:\Users\Migo\OneDrive\Documents\Visual Studio 2022\Migo_OOP_Projects(C#)\Tic-Tac-Toe Project\Tic-Tac-Toe Project\obj\Debug\net6.0-windows\Tic_Tac_Toe_Project._form1.resources
