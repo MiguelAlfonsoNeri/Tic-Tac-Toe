@@ -2,6 +2,7 @@ namespace Tic_Tac_Toe_Project
 {
     public partial class Form1 : Form
     {
+        // declare global variable 
         String BnValue = "X";
         public Form1()
         {
@@ -19,15 +20,17 @@ namespace Tic_Tac_Toe_Project
                 }
                 else
                 {
-                     BnValue = "X";
+                    BnValue = "X";
                 }
-                if  (Bn1.Text == Bn2.Text)
+                // button 1 vertical
+                if (Bn1.Text == Bn2.Text)
                 {
                     if (Bn2.Text == Bn3.Text)
                     {
-                        MessageBox.Show(Bn1.Text +" "+ "PLAYER WINS!");
+                        MessageBox.Show(Bn1.Text + " " + "PLAYER WINS!");
                     }
                 }
+                // button 1 horizontal
                 if (Bn1.Text == Bn4.Text)
                 {
                     if (Bn4.Text == Bn7.Text)
@@ -35,6 +38,7 @@ namespace Tic_Tac_Toe_Project
                         MessageBox.Show(Bn1.Text + " " + "PLAYER WINS!");
                     }
                 }
+                // button 1 diagonal
                 if (Bn1.Text == Bn5.Text)
                 {
                     if (Bn5.Text == Bn9.Text)
@@ -46,7 +50,7 @@ namespace Tic_Tac_Toe_Project
             }
         }
 
-            private void Bn2_Click(object sender, EventArgs e)
+        private void Bn2_Click(object sender, EventArgs e)
         {
             if (Bn2.Text == "")
             {
@@ -59,6 +63,7 @@ namespace Tic_Tac_Toe_Project
                 {
                     BnValue = "X";
                 }
+                //button 2 vertical
                 if (Bn2.Text == Bn1.Text)
                 {
                     if (Bn1.Text == Bn3.Text)
@@ -66,6 +71,7 @@ namespace Tic_Tac_Toe_Project
                         MessageBox.Show(Bn2.Text + " " + "PLAYER WINS!");
                     }
                 }
+                //button 2 horizontal
                 if (Bn2.Text == Bn5.Text)
                 {
                     if (Bn5.Text == Bn8.Text)
@@ -89,6 +95,7 @@ namespace Tic_Tac_Toe_Project
                 {
                     BnValue = "X";
                 }
+                //button 3 vertical
                 if (Bn3.Text == Bn2.Text)
                 {
                     if (Bn2.Text == Bn1.Text)
@@ -96,6 +103,7 @@ namespace Tic_Tac_Toe_Project
                         MessageBox.Show(Bn3.Text + " " + "PLAYER WINS!");
                     }
                 }
+                //button 3 diagonal
                 if (Bn3.Text == Bn5.Text)
                 {
                     if (Bn5.Text == Bn7.Text)
@@ -103,6 +111,7 @@ namespace Tic_Tac_Toe_Project
                         MessageBox.Show(Bn2.Text + " " + "PLAYER WINS!");
                     }
                 }
+                //button 3 horizontal
                 if (Bn3.Text == Bn6.Text)
                 {
                     if (Bn6.Text == Bn9.Text)
@@ -126,6 +135,7 @@ namespace Tic_Tac_Toe_Project
                 {
                     BnValue = "X";
                 }
+                //button 4 horizontal
                 if (Bn4.Text == Bn1.Text)
                 {
                     if (Bn1.Text == Bn7.Text)
@@ -133,6 +143,7 @@ namespace Tic_Tac_Toe_Project
                         MessageBox.Show(Bn4.Text + " " + "PLAYER WINS!");
                     }
                 }
+                //button 4 vertical
                 if (Bn4.Text == Bn5.Text)
                 {
                     if (Bn5.Text == Bn6.Text)
@@ -156,6 +167,7 @@ namespace Tic_Tac_Toe_Project
                 {
                     BnValue = "X";
                 }
+                //button 5 vertical
                 if (Bn5.Text == Bn4.Text)
                 {
                     if (Bn4.Text == Bn6.Text)
@@ -163,6 +175,7 @@ namespace Tic_Tac_Toe_Project
                         MessageBox.Show(Bn5.Text + " " + "PLAYER WINS!");
                     }
                 }
+                //button 5 diagonal to the right
                 if (Bn5.Text == Bn3.Text)
                 {
                     if (Bn3.Text == Bn7.Text)
@@ -170,6 +183,7 @@ namespace Tic_Tac_Toe_Project
                         MessageBox.Show(Bn5.Text + " " + "PLAYER WINS!");
                     }
                 }
+                //button 5 diagonal to the left
                 if (Bn5.Text == Bn1.Text)
                 {
                     if (Bn1.Text == Bn9.Text)
@@ -177,6 +191,7 @@ namespace Tic_Tac_Toe_Project
                         MessageBox.Show(Bn5.Text + " " + "PLAYER WINS!");
                     }
                 }
+                //button 5 horizontal
                 if (Bn5.Text == Bn2.Text)
                 {
                     if (Bn2.Text == Bn8.Text)
@@ -200,6 +215,7 @@ namespace Tic_Tac_Toe_Project
                 {
                     BnValue = "X";
                 }
+                //button 6 vertical
                 if (Bn6.Text == Bn5.Text)
                 {
                     if (Bn5.Text == Bn4.Text)
@@ -207,6 +223,7 @@ namespace Tic_Tac_Toe_Project
                         MessageBox.Show(Bn6.Text + " " + "PLAYER WINS!");
                     }
                 }
+                //button 6 horizontal
                 if (Bn6.Text == Bn3.Text)
                 {
                     if (Bn3.Text == Bn9.Text)
@@ -230,6 +247,7 @@ namespace Tic_Tac_Toe_Project
                 {
                     BnValue = "X";
                 }
+                //button 7  horizontal
                 if (Bn7.Text == Bn4.Text)
                 {
                     if (Bn4.Text == Bn1.Text)
@@ -237,6 +255,7 @@ namespace Tic_Tac_Toe_Project
                         MessageBox.Show(Bn7.Text + " " + "PLAYER WINS!");
                     }
                 }
+                //button 7 diagonal
                 if (Bn7.Text == Bn5.Text)
                 {
                     if (Bn5.Text == Bn3.Text)
@@ -244,6 +263,7 @@ namespace Tic_Tac_Toe_Project
                         MessageBox.Show(Bn7.Text + " " + "PLAYER WINS!");
                     }
                 }
+                //button 7 vertical
                 if (Bn7.Text == Bn8.Text)
                 {
                     if (Bn8.Text == Bn9.Text)
@@ -267,6 +287,7 @@ namespace Tic_Tac_Toe_Project
                 {
                     BnValue = "X";
                 }
+                //button 8 horizontal
                 if (Bn8.Text == Bn5.Text)
                 {
                     if (Bn5.Text == Bn2.Text)
@@ -274,6 +295,7 @@ namespace Tic_Tac_Toe_Project
                         MessageBox.Show(Bn8.Text + " " + "PLAYER WINS!");
                     }
                 }
+                //button 8 vertical
                 if (Bn8.Text == Bn7.Text)
                 {
                     if (Bn7.Text == Bn9.Text)
@@ -297,6 +319,7 @@ namespace Tic_Tac_Toe_Project
                 {
                     BnValue = "X";
                 }
+                //button 9 vertical
                 if (Bn9.Text == Bn8.Text)
                 {
                     if (Bn8.Text == Bn7.Text)
@@ -304,6 +327,7 @@ namespace Tic_Tac_Toe_Project
                         MessageBox.Show(Bn9.Text + " " + "PLAYER WINS!");
                     }
                 }
+                //button 9 horizontal
                 if (Bn9.Text == Bn6.Text)
                 {
                     if (Bn6.Text == Bn3.Text)
@@ -311,6 +335,7 @@ namespace Tic_Tac_Toe_Project
                         MessageBox.Show(Bn9.Text + " " + "PLAYER WINS!");
                     }
                 }
+                //button 9 diagonal
                 if (Bn9.Text == Bn5.Text)
                 {
                     if (Bn5.Text == Bn1.Text)
@@ -322,3 +347,9 @@ namespace Tic_Tac_Toe_Project
         }
     }
 }
+
+
+
+
+
+       
