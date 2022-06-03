@@ -39,13 +39,13 @@
             this.Bn8 = new System.Windows.Forms.Button();
             this.Bn9 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menuToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitGameToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutTheCreatorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitGameToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -155,6 +155,29 @@
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
             // 
+            // menuToolStripMenuItem1
+            // 
+            this.menuToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aboutToolStripMenuItem,
+            this.exitGameToolStripMenuItem1});
+            this.menuToolStripMenuItem1.Name = "menuToolStripMenuItem1";
+            this.menuToolStripMenuItem1.Size = new System.Drawing.Size(73, 29);
+            this.menuToolStripMenuItem1.Text = "Menu";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.aboutToolStripMenuItem.Text = "About ";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
+            // exitGameToolStripMenuItem1
+            // 
+            this.exitGameToolStripMenuItem1.Name = "exitGameToolStripMenuItem1";
+            this.exitGameToolStripMenuItem1.Size = new System.Drawing.Size(270, 34);
+            this.exitGameToolStripMenuItem1.Text = "Exit game";
+            this.exitGameToolStripMenuItem1.Click += new System.EventHandler(this.exitGameToolStripMenuItem1_Click);
+            // 
             // menuStrip2
             // 
             this.menuStrip2.ImageScalingSize = new System.Drawing.Size(24, 24);
@@ -188,28 +211,6 @@
             this.aboutTheCreatorToolStripMenuItem.Name = "aboutTheCreatorToolStripMenuItem";
             this.aboutTheCreatorToolStripMenuItem.Size = new System.Drawing.Size(254, 34);
             this.aboutTheCreatorToolStripMenuItem.Text = "About the creator";
-            // 
-            // menuToolStripMenuItem1
-            // 
-            this.menuToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aboutToolStripMenuItem,
-            this.exitGameToolStripMenuItem1});
-            this.menuToolStripMenuItem1.Name = "menuToolStripMenuItem1";
-            this.menuToolStripMenuItem1.Size = new System.Drawing.Size(73, 29);
-            this.menuToolStripMenuItem1.Text = "Menu";
-            // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
-            this.aboutToolStripMenuItem.Text = "About ";
-            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
-            // 
-            // exitGameToolStripMenuItem1
-            // 
-            this.exitGameToolStripMenuItem1.Name = "exitGameToolStripMenuItem1";
-            this.exitGameToolStripMenuItem1.Size = new System.Drawing.Size(270, 34);
-            this.exitGameToolStripMenuItem1.Text = "Exit game";
             // 
             // Form1
             // 

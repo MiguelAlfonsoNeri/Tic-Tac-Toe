@@ -728,6 +728,11 @@ namespace Tic_Tac_Toe_Project
         {
             MessageBox.Show("Tic-Tac-Toe by Miguel Neri," +" / "+ "Future Programmer", "About");
         }
+
+        private void exitGameToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
 
