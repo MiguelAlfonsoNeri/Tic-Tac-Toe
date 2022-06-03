@@ -4,6 +4,7 @@ namespace Tic_Tac_Toe_Project
     {
         // declare global variable 
         String BnValue = "X";
+        int counter = 0;
         public Form1()
         {
             InitializeComponent();
@@ -27,25 +28,72 @@ namespace Tic_Tac_Toe_Project
                 {
                     if (Bn2.Text == Bn3.Text)
                     {
-                        MessageBox.Show(Bn1.Text + " " + "PLAYER WINS!");
+                        MessageBox.Show(Bn1.Text + " " + "WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
                 }
-                // button 1 horizontal
-                if (Bn1.Text == Bn4.Text)
+                //button 1 horizontal
+                else if (Bn1.Text == Bn4.Text)
                 {
                     if (Bn4.Text == Bn7.Text)
                     {
-                        MessageBox.Show(Bn1.Text + " " + "PLAYER WINS!");
+                        MessageBox.Show(Bn1.Text + " " + "WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
                 }
                 // button 1 diagonal
-                if (Bn1.Text == Bn5.Text)
+                else if (Bn1.Text == Bn5.Text)
                 {
                     if (Bn5.Text == Bn9.Text)
                     {
                         MessageBox.Show(Bn1.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
+
                 }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("IT'S A TIE!");
+                    Bn1.Text = "";
+                    Bn2.Text = "";
+                    Bn3.Text = "";
+                    Bn4.Text = "";
+                    Bn5.Text = "";
+                    Bn6.Text = "";
+                    Bn7.Text = "";
+                    Bn8.Text = "";
+                    Bn9.Text = "";
+                    counter = 0;
+                }
+
 
             }
         }
@@ -66,18 +114,53 @@ namespace Tic_Tac_Toe_Project
                 //button 2 vertical
                 if (Bn2.Text == Bn1.Text)
                 {
-                    if (Bn1.Text == Bn3.Text)
+                    if (Bn2.Text == Bn3.Text)
                     {
                         MessageBox.Show(Bn2.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
                 }
                 //button 2 horizontal
-                if (Bn2.Text == Bn5.Text)
+                else if (Bn2.Text == Bn5.Text)
                 {
                     if (Bn5.Text == Bn8.Text)
                     {
                         MessageBox.Show(Bn2.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("IT'S A TIE!");
+                    Bn1.Text = "";
+                    Bn2.Text = "";
+                    Bn3.Text = "";
+                    Bn4.Text = "";
+                    Bn5.Text = "";
+                    Bn6.Text = "";
+                    Bn7.Text = "";
+                    Bn8.Text = "";
+                    Bn9.Text = "";
+                    counter = 0;
                 }
             }
         }
@@ -101,23 +184,68 @@ namespace Tic_Tac_Toe_Project
                     if (Bn2.Text == Bn1.Text)
                     {
                         MessageBox.Show(Bn3.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
                 }
                 //button 3 diagonal
-                if (Bn3.Text == Bn5.Text)
+                else if (Bn3.Text == Bn5.Text)
                 {
                     if (Bn5.Text == Bn7.Text)
                     {
-                        MessageBox.Show(Bn2.Text + " " + "PLAYER WINS!");
+                        MessageBox.Show(Bn3.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
                 }
                 //button 3 horizontal
-                if (Bn3.Text == Bn6.Text)
+                else if (Bn3.Text == Bn6.Text)
                 {
                     if (Bn6.Text == Bn9.Text)
                     {
                         MessageBox.Show(Bn3.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("IT'S A TIE!");
+                    Bn1.Text = "";
+                    Bn2.Text = "";
+                    Bn3.Text = "";
+                    Bn4.Text = "";
+                    Bn5.Text = "";
+                    Bn6.Text = "";
+                    Bn7.Text = "";
+                    Bn8.Text = "";
+                    Bn9.Text = "";
+                    counter = 0;
                 }
             }
         }
@@ -141,15 +269,50 @@ namespace Tic_Tac_Toe_Project
                     if (Bn1.Text == Bn7.Text)
                     {
                         MessageBox.Show(Bn4.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
                 }
                 //button 4 vertical
-                if (Bn4.Text == Bn5.Text)
+                else if (Bn4.Text == Bn5.Text)
                 {
                     if (Bn5.Text == Bn6.Text)
                     {
                         MessageBox.Show(Bn4.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("IT'S A TIE!");
+                    Bn1.Text = "";
+                    Bn2.Text = "";
+                    Bn3.Text = "";
+                    Bn4.Text = "";
+                    Bn5.Text = "";
+                    Bn6.Text = "";
+                    Bn7.Text = "";
+                    Bn8.Text = "";
+                    Bn9.Text = "";
+                    counter = 0;
                 }
             }
         }
@@ -173,31 +336,86 @@ namespace Tic_Tac_Toe_Project
                     if (Bn4.Text == Bn6.Text)
                     {
                         MessageBox.Show(Bn5.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
                 }
                 //button 5 diagonal to the right
-                if (Bn5.Text == Bn3.Text)
+                else if (Bn5.Text == Bn3.Text)
                 {
                     if (Bn3.Text == Bn7.Text)
                     {
                         MessageBox.Show(Bn5.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
                 }
                 //button 5 diagonal to the left
-                if (Bn5.Text == Bn1.Text)
+                else if (Bn5.Text == Bn1.Text)
                 {
                     if (Bn1.Text == Bn9.Text)
                     {
                         MessageBox.Show(Bn5.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
                 }
                 //button 5 horizontal
-                if (Bn5.Text == Bn2.Text)
+                else if (Bn5.Text == Bn2.Text)
                 {
                     if (Bn2.Text == Bn8.Text)
                     {
                         MessageBox.Show(Bn5.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("IT'S A TIE!");
+                    Bn1.Text = "";
+                    Bn2.Text = "";
+                    Bn3.Text = "";
+                    Bn4.Text = "";
+                    Bn5.Text = "";
+                    Bn6.Text = "";
+                    Bn7.Text = "";
+                    Bn8.Text = "";
+                    Bn9.Text = "";
+                    counter = 0;
                 }
             }
         }
@@ -220,16 +438,51 @@ namespace Tic_Tac_Toe_Project
                 {
                     if (Bn5.Text == Bn4.Text)
                     {
-                        MessageBox.Show(Bn6.Text + " " + "PLAYER WINS!");
+                        MessageBox.Show(Bn6.Text + " " + " PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
                 }
                 //button 6 horizontal
-                if (Bn6.Text == Bn3.Text)
+                else if (Bn6.Text == Bn3.Text)
                 {
-                    if (Bn3.Text == Bn9.Text)
+                    if (Bn6.Text == Bn9.Text)
                     {
-                        MessageBox.Show(Bn2.Text + " " + "PLAYER WINS!");
+                        MessageBox.Show(Bn6.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("IT'S A TIE!");
+                    Bn1.Text = "";
+                    Bn2.Text = "";
+                    Bn3.Text = "";
+                    Bn4.Text = "";
+                    Bn5.Text = "";
+                    Bn6.Text = "";
+                    Bn7.Text = "";
+                    Bn8.Text = "";
+                    Bn9.Text = "";
+                    counter = 0;
                 }
             }
         }
@@ -253,23 +506,68 @@ namespace Tic_Tac_Toe_Project
                     if (Bn4.Text == Bn1.Text)
                     {
                         MessageBox.Show(Bn7.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
                 }
                 //button 7 diagonal
-                if (Bn7.Text == Bn5.Text)
+                else if (Bn7.Text == Bn5.Text)
                 {
                     if (Bn5.Text == Bn3.Text)
                     {
                         MessageBox.Show(Bn7.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
                 }
                 //button 7 vertical
-                if (Bn7.Text == Bn8.Text)
+                else if (Bn7.Text == Bn8.Text)
                 {
                     if (Bn8.Text == Bn9.Text)
                     {
                         MessageBox.Show(Bn7.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("IT'S A TIE!");
+                    Bn1.Text = "";
+                    Bn2.Text = "";
+                    Bn3.Text = "";
+                    Bn4.Text = "";
+                    Bn5.Text = "";
+                    Bn6.Text = "";
+                    Bn7.Text = "";
+                    Bn8.Text = "";
+                    Bn9.Text = "";
+                    counter = 0;
                 }
             }
         }
@@ -293,15 +591,50 @@ namespace Tic_Tac_Toe_Project
                     if (Bn5.Text == Bn2.Text)
                     {
                         MessageBox.Show(Bn8.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
                 }
                 //button 8 vertical
-                if (Bn8.Text == Bn7.Text)
+                else if (Bn8.Text == Bn7.Text)
                 {
                     if (Bn7.Text == Bn9.Text)
                     {
                         MessageBox.Show(Bn8.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("IT'S A TIE!");
+                    Bn1.Text = "";
+                    Bn2.Text = "";
+                    Bn3.Text = "";
+                    Bn4.Text = "";
+                    Bn5.Text = "";
+                    Bn6.Text = "";
+                    Bn7.Text = "";
+                    Bn8.Text = "";
+                    Bn9.Text = "";
+                    counter = 0;
                 }
             }
         }
@@ -325,23 +658,68 @@ namespace Tic_Tac_Toe_Project
                     if (Bn8.Text == Bn7.Text)
                     {
                         MessageBox.Show(Bn9.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
                 }
                 //button 9 horizontal
-                if (Bn9.Text == Bn6.Text)
+                else if (Bn9.Text == Bn6.Text)
                 {
                     if (Bn6.Text == Bn3.Text)
                     {
                         MessageBox.Show(Bn9.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
                 }
-                //button 9 diagonal
-                if (Bn9.Text == Bn5.Text)
+                //button 9 diagonal 
+                else if (Bn9.Text == Bn5.Text)
                 {
                     if (Bn5.Text == Bn1.Text)
                     {
                         MessageBox.Show(Bn9.Text + " " + "PLAYER WINS!");
+                        Bn1.Text = "";
+                        Bn2.Text = "";
+                        Bn3.Text = "";
+                        Bn4.Text = "";
+                        Bn5.Text = "";
+                        Bn6.Text = "";
+                        Bn7.Text = "";
+                        Bn8.Text = "";
+                        Bn9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("IT'S A TIE!");
+                    Bn1.Text = "";
+                    Bn2.Text = "";
+                    Bn3.Text = "";
+                    Bn4.Text = "";
+                    Bn5.Text = "";
+                    Bn6.Text = "";
+                    Bn7.Text = "";
+                    Bn8.Text = "";
+                    Bn9.Text = "";
+                    counter = 0;
                 }
             }
         }
