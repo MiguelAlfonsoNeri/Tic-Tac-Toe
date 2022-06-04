@@ -58,7 +58,7 @@
             this.Bn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.Bn1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Bn1.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Bn1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Bn1.ForeColor = System.Drawing.Color.Black;
             this.Bn1.Location = new System.Drawing.Point(74, 113);
             this.Bn1.Name = "Bn1";
             this.Bn1.Size = new System.Drawing.Size(183, 109);
@@ -70,6 +70,7 @@
             // 
             this.Bn2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Bn2.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Bn2.ForeColor = System.Drawing.Color.Black;
             this.Bn2.Location = new System.Drawing.Point(74, 227);
             this.Bn2.Name = "Bn2";
             this.Bn2.Size = new System.Drawing.Size(182, 109);
@@ -120,6 +121,7 @@
             // 
             this.Bn6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Bn6.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Bn6.ForeColor = System.Drawing.Color.Black;
             this.Bn6.Location = new System.Drawing.Point(262, 341);
             this.Bn6.Name = "Bn6";
             this.Bn6.Size = new System.Drawing.Size(185, 108);
@@ -132,7 +134,7 @@
             this.Bn7.BackColor = System.Drawing.Color.White;
             this.Bn7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Bn7.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Bn7.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Bn7.ForeColor = System.Drawing.Color.Black;
             this.Bn7.Location = new System.Drawing.Point(453, 112);
             this.Bn7.Name = "Bn7";
             this.Bn7.Size = new System.Drawing.Size(182, 108);
@@ -144,6 +146,7 @@
             // 
             this.Bn8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Bn8.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Bn8.ForeColor = System.Drawing.Color.Black;
             this.Bn8.Location = new System.Drawing.Point(453, 226);
             this.Bn8.Name = "Bn8";
             this.Bn8.Size = new System.Drawing.Size(182, 109);
@@ -156,7 +159,7 @@
             this.Bn9.BackColor = System.Drawing.Color.White;
             this.Bn9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Bn9.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Bn9.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Bn9.ForeColor = System.Drawing.Color.Black;
             this.Bn9.Location = new System.Drawing.Point(453, 341);
             this.Bn9.Name = "Bn9";
             this.Bn9.Size = new System.Drawing.Size(182, 108);
