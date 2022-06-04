@@ -733,6 +733,24 @@ namespace Tic_Tac_Toe_Project
         {
             Application.Exit();
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void resetToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Bn1.Text = "";
+            Bn2.Text = "";
+            Bn3.Text = "";
+            Bn4.Text = "";
+            Bn5.Text = "";
+            Bn6.Text = "";
+            Bn7.Text = "";
+            Bn8.Text = "";
+            Bn9.Text = "";
+        }
     }
 }
 

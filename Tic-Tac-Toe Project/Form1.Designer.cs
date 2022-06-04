@@ -42,6 +42,7 @@
             this.menuToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitGameToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.resetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,7 +54,7 @@
             // Bn1
             // 
             this.Bn1.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Bn1.Location = new System.Drawing.Point(210, 41);
+            this.Bn1.Location = new System.Drawing.Point(26, 42);
             this.Bn1.Name = "Bn1";
             this.Bn1.Size = new System.Drawing.Size(183, 109);
             this.Bn1.TabIndex = 0;
@@ -63,7 +64,7 @@
             // Bn2
             // 
             this.Bn2.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Bn2.Location = new System.Drawing.Point(211, 155);
+            this.Bn2.Location = new System.Drawing.Point(26, 156);
             this.Bn2.Name = "Bn2";
             this.Bn2.Size = new System.Drawing.Size(182, 109);
             this.Bn2.TabIndex = 1;
@@ -73,7 +74,7 @@
             // Bn3
             // 
             this.Bn3.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Bn3.Location = new System.Drawing.Point(210, 270);
+            this.Bn3.Location = new System.Drawing.Point(26, 270);
             this.Bn3.Name = "Bn3";
             this.Bn3.Size = new System.Drawing.Size(182, 108);
             this.Bn3.TabIndex = 2;
@@ -83,7 +84,7 @@
             // Bn4
             // 
             this.Bn4.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Bn4.Location = new System.Drawing.Point(398, 41);
+            this.Bn4.Location = new System.Drawing.Point(215, 42);
             this.Bn4.Name = "Bn4";
             this.Bn4.Size = new System.Drawing.Size(185, 108);
             this.Bn4.TabIndex = 3;
@@ -93,7 +94,7 @@
             // Bn5
             // 
             this.Bn5.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Bn5.Location = new System.Drawing.Point(398, 156);
+            this.Bn5.Location = new System.Drawing.Point(215, 157);
             this.Bn5.Name = "Bn5";
             this.Bn5.Size = new System.Drawing.Size(185, 108);
             this.Bn5.TabIndex = 4;
@@ -103,7 +104,7 @@
             // Bn6
             // 
             this.Bn6.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Bn6.Location = new System.Drawing.Point(399, 270);
+            this.Bn6.Location = new System.Drawing.Point(215, 271);
             this.Bn6.Name = "Bn6";
             this.Bn6.Size = new System.Drawing.Size(185, 108);
             this.Bn6.TabIndex = 5;
@@ -113,7 +114,7 @@
             // Bn7
             // 
             this.Bn7.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Bn7.Location = new System.Drawing.Point(589, 41);
+            this.Bn7.Location = new System.Drawing.Point(406, 42);
             this.Bn7.Name = "Bn7";
             this.Bn7.Size = new System.Drawing.Size(182, 108);
             this.Bn7.TabIndex = 6;
@@ -123,7 +124,7 @@
             // Bn8
             // 
             this.Bn8.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Bn8.Location = new System.Drawing.Point(589, 155);
+            this.Bn8.Location = new System.Drawing.Point(406, 155);
             this.Bn8.Name = "Bn8";
             this.Bn8.Size = new System.Drawing.Size(182, 109);
             this.Bn8.TabIndex = 7;
@@ -134,7 +135,7 @@
             // 
             this.Bn9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Bn9.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Bn9.Location = new System.Drawing.Point(590, 270);
+            this.Bn9.Location = new System.Drawing.Point(406, 271);
             this.Bn9.Name = "Bn9";
             this.Bn9.Size = new System.Drawing.Size(182, 108);
             this.Bn9.TabIndex = 8;
@@ -147,36 +148,51 @@
             this.menuStrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(30, 30);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuToolStripMenuItem1});
+            this.menuToolStripMenuItem1,
+            this.resetToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(816, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(610, 37);
             this.menuStrip1.Stretch = false;
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // menuToolStripMenuItem1
             // 
             this.menuToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aboutToolStripMenuItem,
             this.exitGameToolStripMenuItem1});
+            this.menuToolStripMenuItem1.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.menuToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.menuToolStripMenuItem1.Name = "menuToolStripMenuItem1";
-            this.menuToolStripMenuItem1.Size = new System.Drawing.Size(73, 29);
+            this.menuToolStripMenuItem1.Size = new System.Drawing.Size(96, 33);
             this.menuToolStripMenuItem1.Text = "Menu";
             // 
             // aboutToolStripMenuItem
             // 
+            this.aboutToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.aboutToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(270, 38);
             this.aboutToolStripMenuItem.Text = "About ";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // exitGameToolStripMenuItem1
             // 
             this.exitGameToolStripMenuItem1.Name = "exitGameToolStripMenuItem1";
-            this.exitGameToolStripMenuItem1.Size = new System.Drawing.Size(270, 34);
+            this.exitGameToolStripMenuItem1.Size = new System.Drawing.Size(270, 38);
             this.exitGameToolStripMenuItem1.Text = "Exit game";
             this.exitGameToolStripMenuItem1.Click += new System.EventHandler(this.exitGameToolStripMenuItem1_Click);
+            // 
+            // resetToolStripMenuItem
+            // 
+            this.resetToolStripMenuItem.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.resetToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.resetToolStripMenuItem.Name = "resetToolStripMenuItem";
+            this.resetToolStripMenuItem.Size = new System.Drawing.Size(105, 33);
+            this.resetToolStripMenuItem.Text = "Reset ";
+            this.resetToolStripMenuItem.Click += new System.EventHandler(this.resetToolStripMenuItem_Click);
             // 
             // menuStrip2
             // 
@@ -219,7 +235,7 @@
             this.AutoSize = true;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(816, 409);
+            this.ClientSize = new System.Drawing.Size(610, 409);
             this.Controls.Add(this.Bn9);
             this.Controls.Add(this.Bn8);
             this.Controls.Add(this.Bn7);
@@ -263,5 +279,6 @@
         private ToolStripMenuItem menuToolStripMenuItem1;
         private ToolStripMenuItem aboutToolStripMenuItem;
         private ToolStripMenuItem exitGameToolStripMenuItem1;
+        private ToolStripMenuItem resetToolStripMenuItem;
     }
 }
